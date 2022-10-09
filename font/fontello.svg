@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="icon-complete" unicode="&#xe801;" d="M350 351l101-101 200 200" horiz-adv-x="1000" />
+
+<glyph glyph-name="emo-sleep" unicode="&#xe803;" d="M53 693c-11 0-21-4-30-10-24-17-30-50-13-75 45-63 119-102 196-102 71 0 138 32 183 85 20 22 18 55-4 75-22 20-56 18-76-4l0 0-1-1 0 0 0-1-1-1c-3-3-7-7-10-10l-1-1-1-1c-3-3-7-6-11-9l0 0c-59-42-143-29-186 32-11 15-28 23-45 23z m485 0c-11 0-21-4-30-10-24-17-30-50-13-75 45-63 119-102 197-102 70 0 137 32 183 85 19 22 17 55-5 75-22 20-56 18-75-4l-1 0-1-1 0 0 0-1-1-1c-3-3-7-7-10-10l-1-1 0-1c-4-3-8-6-12-9l0 0c-59-42-143-29-186 32-11 15-28 23-45 23z m-435-579c-29 0-53-24-53-53 0-30 24-54 53-54l682 0c30 0 54 24 54 54s-24 53-54 53l-682 0z" horiz-adv-x="888" />
+</font>
+</defs>
+</svg>

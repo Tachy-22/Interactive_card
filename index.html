@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="left_section">
+        <div class="left_img">
+          <div id="cardsContainer">
+            <div class="card">
+              <figure id="card_front">
+                <div class="card_front1">
+                  <img src="./images/card-logo.svg" alt="" srcset="" />
+                </div>
+                <div class="card_front2">
+                  <p id="number_card">0000 0000 0000 0000</p>
+                </div>
+                <div class="card_front3">
+                  <p id="name_card">JANE APPLESEED</p>
+                  <div id="date">
+                    <p id="month_card">00</p>
+                    /
+                    <p id="year_card">00</p>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="card">
+              <figure id="card_back">
+                <div id="cardCvc">
+                  <p id="cvc_card">000</p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="right_section">
+        <div class="formDiv">
+          <form action="">
+            <div id="form">
+              <div>
+                <label for="name"> CARDHOLDER NAME</label>
+                <input
+                  class="nameNumber"
+                  placeholder="e.g. Jane Appleseed"
+                  type="text"
+                  name="nameInput"
+                  id="nameInput"
+                  required
+                />
+                <span id="demo5"></span>
+              </div>
+
+              <label for="cardNumber"> CARD NUMBER</label>
+              <input
+                class="nameNumber"
+                placeholder=" e.g. 1234 5678 9123 0000"
+                type="text"
+                name="cardNumber"
+                id="numberInput"
+                value=""
+                maxlength="19"
+                required
+              />
+              <p id="demo"></p>
+              <div id="lastInput">
+                <div class="textContainers">
+                  <label for="exp_date">EXP. DATE (MM/YY)</label>
+                  <div id="exp_date">
+                    <input
+                      placeholder="MM"
+                      class="lastTexts"
+                      type="text"
+                      name=""
+                      id="exp_date1"
+                      value=""
+                      maxlength="2"
+                      required
+                    />
+
+                    <input
+                      placeholder="YY"
+                      class="lastTexts"
+                      type="text"
+                      name=""
+                      id="exp_date2"
+                      value=""
+                      maxlength="2"
+                      required
+                    />
+                  </div>
+                  <span id="demo2"></span> <span id="demo3"></span>
+                </div>
+
+                <div class="textContainers">
+                  <label for="cvc">CVC</label>
+                  <input
+                    placeholder="e.g. 123"
+                    class="lastTexts"
+                    type="text"
+                    name=""
+                    id="cvc"
+                    maxlength="3"
+                    value=""
+                    required
+                  />
+                  <span id="demo4"></span>
+                </div>
+              </div>
+              <input type="button" id="confirm" value="Confirm" />
+              <span id="demo6"></span>
+            </div>
+            <div id="confirmationMessage" class="confirmationMessage">
+              <img
+                id="check"
+                src="./images/icon-complete.svg"
+                alt=""
+                srcset=""
+              />
+              <h1>THANK YOU!</h1>
+              <p>We've added your card details</p>
+              <button type="submit" id="continue">Continue</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Completed state start -->
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
