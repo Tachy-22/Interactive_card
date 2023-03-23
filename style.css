@@ -20,6 +20,7 @@ main {
   background-image: url("../images/bg-main-desktop.png");
   width: 500px;
   height: 100vh;
+  background-position:left;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -230,7 +231,7 @@ footer {
     box-shadow: none;
   }
   .left_img {
-    background-image: url("/images/bg-main-mobile.png");
+    background-image: url("../images/bg-main-mobile.png");
     width: 100vw;
     height: 30vh;
   }
