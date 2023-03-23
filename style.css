@@ -17,7 +17,7 @@ main {
   display: flex;
 }
 .left_img {
-  background-image: url("/images/bg-main-desktop.png");
+  background-image: url("../images/bg-main-desktop.png");
   width: 500px;
   height: 100vh;
   background-size: cover;
